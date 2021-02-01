@@ -14,10 +14,7 @@ function SignUp() {
 
         //IMPORTANT: Replace the follow url with this: http://localhost:4567/calculator/calculate/
 
-        //https://peaceful-chamber-69977.herokuapp.com/calculator/calculate/
-
-
-        Axios.post("http://localhost:4567/calculator/calculate/", numbers)
+        Axios.post("https://front-lab2-arep.herokuapp.com/calculator/calculate/", numbers)
             .then(Response => {
                 var {mean,std} = JSON.parse(Response.data);
                 console.log(mean,std);
