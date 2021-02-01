@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Swal from 'sweetalert2';
 import Axios from 'axios';
 
-function SignUp() {
+function Calculator() {
 
     const [numbers, setNumbers] = useState("")
 
@@ -64,4 +64,4 @@ function SignUp() {
     );
 }
 
-export default SignUp;
+export default Calculator;

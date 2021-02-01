@@ -1,5 +1,5 @@
 import React from 'react';
-import SignUp from './SignUp';
+import Calculator from './Calculator';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         </div>
       </nav>
       <div className="overlay home-background ">
-        <SignUp></SignUp>
+        <Calculator></Calculator>
       </div>
     </div>
   );
