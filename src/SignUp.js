@@ -46,7 +46,7 @@ function SignUp() {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="form-group">
-                                        <input type="name" className="form-control" placeholder="Example of use: 23.1, 4, 10"
+                                        <input type="name" className="form-control" placeholder="Example: 23.1, 4, 10"
                                             onChange={(e) => setNumbers(e.target.value)} required></input>
                                     </div>
                                 </div>
