@@ -14,7 +14,7 @@ function Calculator() {
 
         //IMPORTANT: Replace the follow url with this: http://localhost:4567/calculator/calculate/
 
-        Axios.post("https://front-lab2-arep.herokuapp.com/calculator/calculate/", numbers)
+        Axios.post("https://peaceful-chamber-69977.herokuapp.com/calculator/calculate/", numbers)
             .then(Response => {
                 var {mean,std} = JSON.parse(Response.data);
                 console.log(mean,std);
